@@ -1,0 +1,155 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+
+/* HEADER */
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 68px;
+}
+
+.container-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo-header {
+    font-size: 30px;
+    color: #95E1D3 !important;
+}
+
+
+.nav-list {
+    display: flex;
+    gap: 55px;
+}
+
+.nav-list-link {
+    color: #95E1D3;
+}
+
+.nav-list-link:hover {
+    color: #F38181;
+}
+
+
+/* SECTION: HERO */
+
+.section-hero {
+    margin-bottom: 68px;
+}
+
+.section-hero-container {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-hero-suptext {
+    margin-bottom: 20px;
+}
+
+.section-hero-title {
+    margin-bottom: 112px;
+}
+
+.section-hero-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 69px;
+}
+
+.hero-list-item {
+    display: flex;
+    align-items: start;
+}
+
+.hero-list-img {
+    margin-right: 20px;
+}
+
+.hero-inner_text-title {
+    margin-bottom: 20px;
+}
+
+/* SECTION: TEAM */
+
+.section-team {
+    margin-bottom: 68px;
+}
+
+.section-team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-team-suptext {
+    margin-bottom: 17px;
+}
+.section-team-title {
+    margin-bottom: 85px;
+}
+.section-team-text {
+    text-align: center;
+    margin-bottom: 68px;
+}
+
+.section-team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-list-item {
+    max-width: 546px;
+    text-align: center;
+}
+
+.team-list-img {
+    margin-bottom: 30px;
+}
+
+.team-list-title {
+    margin-bottom: 11px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-bottom: 10px;
+}
+
+.container-footer {
+    border-top: 1px solid #B6B6B6;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-form-input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #000;
+}
+.footer-form-input:focus {
+    outline: none;
+}
+
+.footer-form-btn {
+    width: 150px;
+    height: 40px;
+    background: #95E1D3;
+    color: #FFF;
+}
